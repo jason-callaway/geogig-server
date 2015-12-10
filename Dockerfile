@@ -12,3 +12,4 @@ RUN git clone http://github.com/boundlessgeo/GeoGig.git /usr/local/geogig && \
 RUN cd /usr/local/geogig/src/parent && \
     mvn clean install -DskipTests
 
+# TODO: fix classpath issues and put executables in /usr/local/bin
