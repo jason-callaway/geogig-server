@@ -5,6 +5,7 @@ Dockerized GeoGig CLI on a CentOS base image
 Currently, to invoke the GeoGig client:
 
 ```
+# docker run --rm -ti geogig-cli bash
 [root@531e8327a6bb ~]# /usr/local/geogig/src/cli-app/target/geogig/bin/geogig version
          Project Version : 1.0-beta1
               Build Time : December 10, 2015 at 02:21:50 UTC
